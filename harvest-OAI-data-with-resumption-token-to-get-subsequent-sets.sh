@@ -8,10 +8,10 @@
 
 SERVER="http://cdm16998.contentdm.oclc.org/oai/oai.php"
 
-DCGSETTINGS='--header="From: support@oclc.org" --header="User-Agent: WorldCat Digital Collection Gateway from OCLC.org"'
+#DCGSETTINGS='--header="From: support@oclc.org" --header="User-Agent: WorldCat Digital Collection Gateway from OCLC.org"'
 
 counter=0
-datetime=`date +%F_%R:%S`
+datetime=`date +%F_%H.%M.%S`
 
 touch wget-errors.txt
 
